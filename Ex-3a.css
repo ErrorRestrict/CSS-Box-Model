@@ -1,0 +1,64 @@
+.space{
+    margin-top: 50px;
+}
+
+.Pagination{
+    margin-bottom: 10px;
+}
+
+.back{
+    padding: 5px;
+    margin: 8px;
+}
+
+.next{
+    padding: 5px;
+    margin: 8px;
+}
+
+
+/* Adding Hover on streched button */
+.stretch{
+    border: none;
+    padding: 10px;
+    background-color: rgb(62, 117, 7);
+    color: white;
+    transition: padding 0.8s;
+}
+
+.stretch:hover{
+    padding: 20px;
+}
+
+
+/* Adding shadow to button when hover */
+
+.shadow{
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: 600;
+    transition: box-shadow 0.8s;
+}
+
+.shadow:hover{
+   
+    box-shadow: 1px 1px 1px grey;
+}
+
+.one{
+
+    color: white;
+    background-color: green;
+    border:none;
+    transition: margin 0.7s, padding 07s;
+}
+
+.one:hover{
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
